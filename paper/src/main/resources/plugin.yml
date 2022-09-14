@@ -1,13 +1,11 @@
-name: ${name}
+name: ${pluginName}
 main: com.untamedears.jukealert.JukeAlert
 version: ${version}
 authors: [mgrandi, Maxopoly]
 depend: [CivModCore, NameLayer, Citadel]
 softdepend: [VanishNoPacket]
-api-version: 1.16
-description: JukeAlert provides an easy-to-use means by which one can record player activity within an 11 block radius. Anything
-   someone does while within eleven blocks of a jukebox you've reinforced will be logged on it, and can be read by looking
-   at the jukebox and typing '/jainfo'.
+description: ${description}
+api-version: ${api_version}
 permissions:
    jukealert.admin.jagroup:
       description: Use /jagroup even when not the owner
